@@ -15,6 +15,10 @@ npm install
 npm run dev
 ```
 
-## Constraints
+## HackerRank Constraints
+- Test cases forced certain approaches, even if not ideal. E.g using `type="number"` for monetary inputs.
 
-The HackerRank environment constrains developers to certain solutions due to the pre-written and read-only test suites. For instance, I was forced to use an input element of type="number" in the CryptoExchange challenge, despite it not being ideal. I tried to use the recommended type="text" but it made it impossible to pass the tests, so I had to work around this to ensure the tests passed but it means some edge cases aren't adequately handled. 
+## What I Would Do Differently
+- Use `type="text"` and validate input manually.
+- Add accessibility enhancements.
+- Include more robust error handling for edge cases.
